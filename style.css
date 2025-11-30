@@ -588,11 +588,20 @@ h3 {
     top: 45%;
 }
 
+.carousel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* Letterboxd button */
 .lb-btn {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    margin-left: 12px;
     padding: 6px 12px;
     background: #111;
     color: white;
@@ -606,4 +615,6 @@ h3 {
 .lb-btn:hover {
     background: #333;
 }
+
+
 
