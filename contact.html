@@ -70,9 +70,23 @@
             background: #fff;
         }
 
+        /* Twitter button — fully separate */
         .contact-button-twitter {
-            background: #1da1f2;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: 999px;
+            font-size: 0.95rem;
+            text-decoration: none;
+            background: #1d9bf0; /* Twitter blue */
             color: #fff;
+            font-weight: 500;
+            transition: background 0.2s ease;
+        }
+
+        .contact-button-twitter:hover {
+            background: #1583cc;
         }
 
         .about-image img {
@@ -129,7 +143,7 @@
         </p>
 
         <p>
-            For longer conversations, you can also grab time on my calendar. 
+            For longer conversations, you can also grab time on my calendar.
         </p>
 
         <div class="contact-actions">
@@ -137,19 +151,18 @@
                class="contact-button-primary">
                 Email me
             </a>
-            <a href="https://x.com/thezonemaster"
-                target="_blank" rel="noopener noreferrer"
-                class="contact-button-twitter">
-                Follow me on Twitter
-            </a>
 
             <a href="https://calendly.com/joseph-a-george/30min"
                target="_blank" rel="noopener noreferrer"
                class="contact-button-secondary">
                 Schedule a meeting
             </a>
-            
-            
+
+            <a href="https://x.com/thezonemaster"
+               target="_blank" rel="noopener noreferrer"
+               class="contact-button-twitter">
+                <i class="fa-brands fa-x-twitter"></i> Twitter
+            </a>
         </div>
     </div>
 </div>
@@ -172,6 +185,11 @@
             </a>, a grassroots basketball analysis collective focused on draft evaluation and projection.
         </p>
 
+        <div class="about-image">
+            <img src="wemby.jpg" alt="Bill Walton">
+            <div class="image-subtitle">Bill Walton - one of my favorite players.</div>
+        </div>
+
         <p>
             You can find most of my work at
             <a href="https://www.natesilver.net/s/sports" target="_blank" rel="noopener noreferrer">
@@ -181,13 +199,12 @@
                 The Zone Master
             </a>.
         </p>
-
-        <div class="about-image">
-            <img src="wemby.jpg" alt="Bill Walton">
-            <div class="image-subtitle">Bill Walton - one of my favorite players.</div>
-        </div>
-
     </div>
+</div>
+
+</body>
+</html>
+
 </div>
 
 </body>
