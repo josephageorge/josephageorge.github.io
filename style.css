@@ -588,22 +588,6 @@ h3 {
     top: 45%;
 }
 
-.carousel-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 12px;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.favorites-btn-row {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 32px;
-}
-
-/* Letterboxd button */
 .lb-btn {
     display: inline-flex;
     align-items: center;
@@ -640,4 +624,3 @@ h3 {
     gap: 12px;
     justify-content: center; /* centers your buttons */
 }
-
