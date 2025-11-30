@@ -587,3 +587,23 @@ h3 {
     position: absolute;
     top: 45%;
 }
+
+.lb-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 12px;
+    padding: 6px 12px;
+    background: #111;
+    color: white;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.lb-btn:hover {
+    background: #333;
+}
+
