@@ -597,16 +597,22 @@ h3 {
     padding-right: 8px;
 }
 
+.favorites-btn-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
 /* Letterboxd button */
 .lb-btn {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    padding: 6px 12px;
+    padding: 7px 14px;
     background: #111;
     color: white;
     border-radius: 6px;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     font-weight: 600;
     text-decoration: none;
     transition: background 0.2s ease;
@@ -615,6 +621,4 @@ h3 {
 .lb-btn:hover {
     background: #333;
 }
-
-
 
